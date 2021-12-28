@@ -1,4 +1,4 @@
-function scope() {
+(function() {
 
     function getTimeFromSeconds(second) {
         let time = new Date(second * 1000);
@@ -42,6 +42,4 @@ function scope() {
         }
     })
 
-}
-
-scope();
+})();
